@@ -1,0 +1,264 @@
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(189deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 74%, rgba(1,200,247,1) 100%, rgba(0,212,255,1) 100%); 
+    padding: 0;
+    font-family: monaco,Consolas,Lucida Console,monospace; 
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+    a:link,:visited{
+        color: rgb(231, 231, 231);
+        text-align: center;
+        text-decoration: none;
+        clear: both;
+    }
+    a:hover{
+        color: rgb(194, 205, 238);
+        
+    }
+
+
+
+header{
+    text-align: center;
+}
+    nav{
+        background-color: rgb(255, 255, 255);
+        
+    }
+
+    #main_nav {
+        background: #141414;
+        font-size: 14px;
+        padding: 3px 0;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 1%;
+    }
+
+    #main_nav select {
+        font-size: 90%;
+        padding: 0;
+    }
+
+
+
+/*main*/
+
+    .desc{
+        background-color: rgba(0, 1, 12, 0.8);
+        color: rgb(233, 233, 233);
+        border-radius: 5px;
+        padding: 0.5px 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 18px;
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+    }
+    .rules{
+        border: 0.5px solid rgba(0, 56, 82, 0.829);
+        background-color: rgba(0, 1, 12, 0.8);
+        color: rgb(233, 233, 233);
+        padding: 0.5px 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 16px;
+        text-align: left;
+        font-family: Helvetica, sans-serif;
+    }
+
+    .screenshot img{
+        text-align: center;
+        width: 150px;
+        height: 100px;
+    }
+    .maps{margin: 0 auto;}
+    .map{
+	display: inline-block;
+	text-align: center;
+    }
+    .nwsBox{
+        background-color: rgba(0, 1, 12, 0.8);
+        color: rgb(233, 233, 233);
+        padding: 0px 20px;
+        margin-top: 0.5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 20px;
+        text-align: left;
+        border-radius: 5px;
+    }
+        .news { overflow-y: scroll; max-height: 20em; font-size: small; border-radius: 5px;}
+
+	.win{background-color: #600;}
+	.tm{display:inline-block; margin: 10px;}
+	.tm h3 {border-bottom: 1px solid grey;margin-bottom: 1pt;}
+	.tm1{color: #E91E63}
+	.tm2{color: #95A5A6}
+	.tm3{color: #1F8B4C}
+	.tm4{color: #E67E22}
+	.tm5{color: #9B59B6}
+
+    .ligaClickBox{
+        background-color: rgba(0, 1, 12, 0.8);
+        color: rgb(255, 255, 255);
+        background-color: rgb(43, 34, 83);
+        padding: 3px 20px;
+        margin-top: 0.5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 17px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .ligaClickBox:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(75, 62, 133);
+    }
+        .ligaCickButton{
+            color: rgb(255, 255, 255);
+            width: 100%;
+        }
+
+        .ligaClickButton:hover{
+            color: rgb(255, 255, 255);
+        }
+
+    .dwnXon{
+        color: rgb(255, 255, 255);
+        background: rgb(2,0,36);
+        background: linear-gradient(78deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(21,42,98,1) 100%, rgba(8,59,69,1) 100%); 
+        
+        padding: 8.5px 45px;
+        font-size: 27px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-family: monospace;
+    }
+
+    .dwnXon:hover{
+        color: rgb(255, 255, 255);
+        background: rgb(14,0,36);
+        background: linear-gradient(78deg, rgba(14,0,36,1) 0%, rgba(61,9,121,1) 45%, rgba(44,21,98,1) 100%, rgba(8,59,69,1) 100%); 
+    }
+    .btnRedes:hover{
+        opacity: 0.9;
+    }
+#tablaXon{
+    width: 100%;
+    color: aliceblue;
+}
+    .nBox, .lBox, .dBox{
+        background-color: rgba(0, 1, 12, 0.8);
+        border-radius: 5px;
+    }
+    .nBox{
+        
+        padding: 20px;
+        width: 20%;
+        margin-top: 0.5%;
+        margin-left: 10%;
+        font-size: 17px;
+        float: left;
+        text-align: left;
+
+    }
+
+    .lBox{
+        padding: 20px;
+        width: 20%;
+        margin-top: 0.5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 17px;
+        float: left;
+        text-align: left;
+
+    }
+
+    .dBox{
+        padding: 20px;
+        width: 20%;
+        margin-top: 0.5%;
+        margin-right: 10%;
+        font-size: 17px;
+        float: right;
+        text-align: left;
+    }
+
+footer{
+    text-align: center;
+}
+
+/*rspnsv*/
+@media (max-width: 1366px) {
+    .dBox, .nBox{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 1365px) {
+    header img{
+        width: 80%;
+        text-align: center;
+    }
+
+    .desc{
+        font-size: 13px;
+        width: 70%;
+        padding: 2px 26px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .nwsBox{
+        font-size: 13px;
+        width: 70%;
+        padding: 0px 26px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .ligaClickBox{
+        font-size: 13px;
+        width: 70%;
+        padding: 0px 27px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .dwnXon{
+        font-size: 15px;
+        padding: 7px 7px;
+    }
+
+    .btnRedes{
+        width: 150px;
+    }
+
+    .dBox, .lBox, .nBox{
+        float: left;
+        width: 70%;
+        padding: 10px 26px;
+        font-size: 13.5px;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    
+}
+
+@media (max-width: 850px){
+    .dBox, .nBox{
+        margin-top: 1%;
+    }
+
+    .screenshot img{
+        text-align: center;
+        width: 80px;
+        height: 50px;
+    }
+}
+
+
